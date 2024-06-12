@@ -1,0 +1,15 @@
+.photo-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .photo {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  img {
+    border-radius: 8px;
+  }
+  

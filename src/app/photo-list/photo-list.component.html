@@ -1,0 +1,7 @@
+<div class="photo-list">
+    <div class="photo" *ngFor="let photo of photos">
+      <img [src]="photo.thumbnailUrl" [alt]="photo.title">
+      <p>{{ photo.title }}</p>
+    </div>
+  </div>
+  
